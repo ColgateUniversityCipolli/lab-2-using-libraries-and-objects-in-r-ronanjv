@@ -118,12 +118,20 @@ Add the BibTeX citation for `esquisse` package for `R` to your `.bib` file and c
 <!-- Note the \hspace{-0em} above is for printing 
 the command instead of actually citing. -->
 
+**Solution**
+
+Using esquisse you can explore and visualize your data interactively [@esquisse].
+
 ## Part f
 Run `esquisser()` in your console -- not in a chunk of `R` code in your Quarto document. 
 
 i. Select `palmerpenguins` from the "Select an environment in which to search:" dropdown. This should automatically select `penguins` in the "Select a data.frame:" dropdown. Click "Import Data".
 ii. Drag `body_mass_g` to the X box and `species` to the fill box. 
 iii. Describe what you see in words. What can you conclude about Adelie, Chinstrap, and Gentoo penguins based on the resulting plot? 
+
+**Solution**
+
+Adelle penguins are much higher in count, and specifically in the lower body mass area. Gentoo penguins tend towards the higher end of body mass, staying around the 10 count. Chinstrap penguins are lowest in count and between 3500 to 4500 typically in body mass.
 
 # Objects and Vectors
 Create the following vectors in `R`. In some cases, you may be able to use `seq()` or `rep()` while in others you cannot. Use these functions when possible, otherwise manually create the vector and explain why that was necessary.
