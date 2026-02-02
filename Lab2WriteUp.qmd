@@ -82,6 +82,7 @@ Install the `esquisse` package for `R`. Report the code below, ensuring to set t
 
 ```{r}
 #| eval: false
+#| code-fold: false
 install.packages("esquisse")
 ```
 
@@ -91,6 +92,7 @@ Load the `esquisse` package for `R`. Report the code below. It does not matter w
 **Solution**
 
 ```{r}
+#| code-fold: false
 library("esquisse")
 ```
 
@@ -100,6 +102,7 @@ How can you ask for help about the  `esquisse` package for `R`? Report the code 
 **Solution**
 ```{r}
 #| eval: false
+#| code-fold: false
 help("esquisse")
 ```
 
@@ -109,6 +112,7 @@ Is a demo or vignette available for the  `esquisse` package for `R`? Report the 
 **Solution**
 ```{r}
 #| eval: false
+#| code-fold: false
 demo("esquisse")
 vignette("esquisse")
 ```
@@ -186,6 +190,14 @@ $$F_n = F_{n-1} + F_{n-2}$$
 where $F_0=0$ and $F_1=1$. 
 
 Create a vector of the first 10 Fibonacci numbers.
+
+**Solution**
+
+```{r}
+#| code-fold: false
+(fib = c(0, 1, 1, 2, 3, 5, 8, 13, 21, 34))
+```
+I did it manually because it does not increase by a fixed amount or follow a repeating pattern.
 
 ## Part b
 Triangular Numbers are the cumulative sums of natural numbers:
