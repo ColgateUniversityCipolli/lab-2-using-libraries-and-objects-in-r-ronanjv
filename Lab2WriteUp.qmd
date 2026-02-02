@@ -205,6 +205,8 @@ $$F_n = \frac{n(n+1)}{2}.$$
 
 Create a vector of the first 10 Triangular Numbers. 
 
+**Solution**
+
 ```{r}
 #| code-fold: false
 n = 1:10
@@ -219,6 +221,21 @@ Consider setting up data entry for this experiment.
 i. Create a vector containing each `ID` repeated three times, once for each treatment.
 ii. Create a vector containing each `Treatment` repeated for each participant ID.
 
+**Solution**
+```{r}
+#| code-fold: false
+(ID = rep(1:10, each = 3))
+(Treatment = rep(c("Control", "Treatment A", "Treatment B"), times = 10))
+```
+
 
 ## Part d
 Create a vector containing the `character` "MATH" and the `numeric` 240. What is the resulting class? Explain why in a sentence.
+
+**Solution**
+```{r}
+#| code-fold: false
+(vector = c("MATH", 240))
+class(vector)
+```
+Because numeric and charater are different classes, R will automatically convert the entire vector to the furthest right class which is character from numeric.
