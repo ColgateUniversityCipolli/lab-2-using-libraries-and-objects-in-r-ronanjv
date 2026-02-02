@@ -205,6 +205,12 @@ $$F_n = \frac{n(n+1)}{2}.$$
 
 Create a vector of the first 10 Triangular Numbers. 
 
+```{r}
+#| code-fold: false
+n = 1:10
+(Triang = n*(n-1)/2)
+```
+
 ## Part c
 Suppose I were designing a repeated meausres experiment with three treatment conditions. Each of $n=10$ participants (with `ID` 1 to 10) will receive *all* experimental conditions, call them "Control", "Treatment A", and "Treatment B". 
 
@@ -212,6 +218,7 @@ Consider setting up data entry for this experiment.
 
 i. Create a vector containing each `ID` repeated three times, once for each treatment.
 ii. Create a vector containing each `Treatment` repeated for each participant ID.
+
 
 ## Part d
 Create a vector containing the `character` "MATH" and the `numeric` 240. What is the resulting class? Explain why in a sentence.
